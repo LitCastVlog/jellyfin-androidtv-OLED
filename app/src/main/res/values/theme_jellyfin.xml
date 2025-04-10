@@ -3,34 +3,41 @@
 
     <style name="Theme.Jellyfin" parent="@style/Theme.AppCompat.Leanback">
         <!-- Colors -->
-        <item name="android:colorPrimary">@color/grey</item>
-        <item name="android:colorPrimaryDark">@color/grey</item>
-        <item name="android:colorAccent">@color/jellyfin_blue</item>
+        <item name="android:colorPrimary">#1C1C1C</item> <!-- Dark grey for primary color -->
+        <item name="android:colorPrimaryDark">#000000</item> <!-- True black for primary dark -->
+        <item name="android:colorAccent">#000000</item> <!-- Black for dark mode accent -->
+
         <!-- Background resource or color -->
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="defaultBackground">@color/not_quite_black</item>
+        <item name="android:windowBackground">#00000000</item> <!-- Fully transparent background -->
+        <item name="defaultBackground">#00000000</item> <!-- Fully transparent background -->
+
         <!-- Background color for CardViews -->
-        <item name="cardImageBackground">@color/grey</item>
-        <item name="cardViewBackground">@android:color/transparent</item>
+        <item name="cardImageBackground">#00000000</item> <!-- Semi-transparent black for card backgrounds -->
+        <item name="cardViewBackground">#00000000</item> <!-- Semi-transparent black for card view background -->
+
         <!-- Search FAB color -->
-        <item name="defaultSearchColor">@color/jellyfin_blue</item>
+        <item name="defaultSearchColor">#00000000</item> <!-- Fully transparent for search -->
+
         <!-- Default (non-active) button color -->
         <item name="android:colorButtonNormal">@color/grey</item>
         <item name="buttonDefaultNormalBackground">@color/button_default_normal_background</item>
         <item name="buttonDefaultHighlightBackground">@color/button_default_highlight_background</item>
+
         <!-- Default (non-active) input -->
         <item name="inputDefaultStrokeWidth">2dp</item>
-        <item name="inputDefaultStrokeColor">@color/input_default_stroke</item>
-        <item name="inputDefaultHighlightBackground">@color/input_default_highlight_background</item>
+        <item name="inputDefaultStrokeColor">#00000000</item> <!-- Fully transparent for input stroke -->
+        <item name="inputDefaultHighlightBackground">#1A000000</item> <!-- Semi-transparent black for input highlight -->
+
         <!-- Default popup menu -->
-        <item name="popupMenuBackground">@color/popup_menu_background</item>
+        <item name="popupMenuBackground">#000000</item> <!-- Solid black for popup menu -->
+
         <!-- Header text color -->
-        <item name="headerTextColor">@color/white</item>
+        <item name="headerTextColor">#FFFFFF</item> <!-- White for header text -->
 
         <!-- Progress Bar -->
-        <item name="progressBackground">@color/grey_transparent</item>
-        <item name="progressPrimary">@color/jellyfin_blue</item>
-        <item name="progressSecondary">@color/jellyfin_purple</item>
+        <item name="progressBackground">#1A000000</item> <!-- Semi-transparent black for progress background -->
+        <item name="progressPrimary">#00000000</item> <!-- Fully transparent for primary progress -->
+        <item name="progressSecondary">#303030</item> <!-- Dark grey for secondary progress -->
 
         <!-- Custom Styles for Elements -->
         <item name="android:datePickerStyle">@style/DatePickerCustom</item>
@@ -52,38 +59,37 @@
 
         <!-- Control icons -->
         <item name="controlIconBackground">@color/button_default_normal_background</item>
-        <item name="controlIconForegroundActive">@color/jellyfin_blue</item>
-        <item name="controlIconForegroundInactive">@color/button_default_highlight_background</item>
+        <item name="controlIconForegroundActive">#FFFFFF</item> <!-- White for active icons -->
+        <item name="controlIconForegroundInactive">#CCCCCC</item> <!-- Light grey for inactive icons -->
 
         <!-- QR drawables -->
-        <item name="qrBackground">@color/white</item>
-        <item name="qrForeground">@color/black</item>
+        <item name="qrBackground">#00000000</item> <!-- Fully transparent for QR background -->
+        <item name="qrForeground">#FFFFFF</item> <!-- White for QR foreground -->
 
         <!-- Tile colors -->
-        <item name="tile_port_person_bg">@color/indigo_dye</item>
-        <item name="tile_user_bg">@color/indigo_dye</item>
-        <item name="tile_port_video_bg">@color/indigo_dye</item>
-        <item name="tile_land_folder_bg">@color/indigo_dye</item>
-        <item name="tile_chapter_bg">@color/indigo_dye</item>
-        <item name="tile_land_tv_bg">@color/indigo_dye</item>
-        <item name="tile_port_tv_bg">@color/indigo_dye</item>
-        <item name="tile_actors_bg">@color/indigo_dye</item>
-        <item name="tile_land_photo_bg">@color/indigo_dye</item>
-        <item name="tile_port_folder_bg">@color/indigo_dye</item>
-        <item name="tile_land_series_timer_bg">@color/indigo_dye</item>
+        <item name="tile_port_person_bg">#1A000000</item> <!-- Semi-transparent black for person tiles -->
+        <item name="tile_user_bg">#1A000000</item> <!-- Semi-transparent black for user tiles -->
+        <item name="tile_port_video_bg">#00000000</item> <!-- Semi-transparent black for video tiles -->
+        <item name="tile_land_folder_bg">#00000000</item> <!-- Semi-transparent black for folder tiles -->
+        <item name="tile_land_tv_bg">#00000000</item> <!-- Semi-transparent black for TV tiles -->
+        <item name="tile_port_tv_bg">#00000000</item> <!-- Semi-transparent black for TV tiles -->
+        <item name="tile_actors_bg">#1A000000</item> <!-- Semi-transparent black for actors tiles -->
+        <item name="tile_land_photo_bg">#1A000000</item> <!-- Semi-transparent black for photo tiles -->
+        <item name="tile_port_folder_bg">#1A000000</item> <!-- Semi-transparent black for folder tiles -->
+        <item name="tile_land_series_timer_bg">#00000000</item> <!-- Semi-transparent black for series timer tiles -->
 
-        <item name="tile_audio_bg">@color/midnight_blue</item>
-        <item name="tile_artists_bg">@color/spanish_blue</item>
-        <item name="tile_genres_bg">@color/midnight_blue</item>
-        <item name="tile_search_bg">@color/spanish_blue</item>
+        <item name="tile_audio_bg">#00000000</item> <!-- Semi-transparent black for audio tiles -->
+        <item name="tile_artists_bg">#00000000</item> <!-- Semi-transparent black for artists tiles -->
+        <item name="tile_genres_bg">#00000000</item> <!-- Semi-transparent black for genres tiles -->
+        <item name="tile_search_bg">#00000000</item> <!-- Semi-transparent black for search tiles -->
 
-        <item name="tile_suggestions_bg">@color/spanish_blue</item>
-        <item name="tile_port_grid_bg">@color/midnight_blue</item>
-        <item name="tile_letters_bg">@color/spanish_blue</item>
+        <item name="tile_suggestions_bg">#00000000</item> <!-- Semi-transparent black for suggestions tiles -->
+        <item name="tile_port_grid_bg">#00000000</item> <!-- Semi-transparent black for grid tiles -->
+        <item name="tile_letters_bg">#00000000</item> <!-- Semi-transparent black for letters tiles -->
 
-        <item name="tile_port_guide_bg">@color/spanish_blue</item>
-        <item name="tile_port_series_timer_bg">@color/midnight_blue</item>
-        <item name="tile_port_time_bg">@color/spanish_blue</item>
+        <item name="tile_port_guide_bg">#1A000000</item> <!-- Semi-transparent black for guide tiles -->
+        <item name="tile_port_series_timer_bg">#1A000000</item> <!-- Semi-transparent black for series timer tiles -->
+        <item name="tile_port_time_bg">#1A000000</item> <!-- Semi-transparent black for time tiles -->
     </style>
 
     <style name="Theme.Jellyfin.Preferences" parent="Theme.Jellyfin">
