@@ -77,8 +77,8 @@ Look through the following graphic to see if your native language could use some
 1. Clone or download this repository
 
    ```sh
-   git clone https://github.com/jellyfin/jellyfin-androidtv.git
-   cd jellyfin-androidtv
+   git clone https://github.com/LitCastVlog/jellyfin-androidtv-OLED.git
+   cd jellyfin-androidtv-OLED
    ```
 
 2. Open the project in Android Studio and run it from there or build an APK directly through Gradle:
