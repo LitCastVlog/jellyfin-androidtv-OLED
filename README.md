@@ -1,5 +1,15 @@
-<h1 align="center">Jellyfin Android TV</h1>
-<h3 align="center">Part of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
+<h1 align="center">OLED fork of Jellyfin Android TV</h1>
+<img src="./Screenshots/screen1.jpg" width="100%"/>
+<img src="./Screenshots/screen0.jpg" width="100%"/>
+<img src="./Screenshots/Screen2.jpg" width="100%"/>
+<img src="./Screenshots/screen3.jpg" width="100%"/>
+<img src="./Screenshots/screen4.jpg" width="100%"/>
+<img src="./Screenshots/screen5.jpg" width="100%"/>
+
+
+
+_
+<h3 align="center">Fork of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
 
 ---
 
