@@ -5,10 +5,10 @@
 <img src="./Screenshots/screen3.jpg" width="100%"/>
 <img src="./Screenshots/screen4.jpg" width="100%"/>
 <img src="./Screenshots/screen5.jpg" width="100%"/>
+<img src="./Screenshots/screen7.jpg" width="100%"/>
 
 
 
-_
 <h3 align="center">Fork of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
 
 ---
