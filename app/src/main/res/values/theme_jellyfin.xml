@@ -5,15 +5,15 @@
         <!-- Colors -->
         <item name="android:colorPrimary">#1C1C1C</item> <!-- Dark grey for primary color -->
         <item name="android:colorPrimaryDark">#000000</item> <!-- True black for primary dark -->
-        <item name="android:colorAccent">#000000</item> <!-- Black for dark mode accent -->
+        <item name="android:colorAccent">#D90D0D0D</item> <!-- semitransparent for dark mode accent -->
 
         <!-- Background resource or color -->
         <item name="android:windowBackground">#00000000</item> <!-- Fully transparent background -->
         <item name="defaultBackground">#00000000</item> <!-- Fully transparent background -->
 
         <!-- Background color for CardViews -->
-        <item name="cardImageBackground">#00000000</item> <!-- Semi-transparent black for card backgrounds -->
-        <item name="cardViewBackground">#00000000</item> <!-- Semi-transparent black for card view background -->
+        <item name="cardImageBackground">#00000000</item> <!-- transparent for card backgrounds -->
+        <item name="cardViewBackground">#00000000</item> <!-- transparent  for card view background -->
 
         <!-- Search FAB color -->
         <item name="defaultSearchColor">#00000000</item> <!-- Fully transparent for search -->
@@ -29,7 +29,7 @@
         <item name="inputDefaultHighlightBackground">#1A000000</item> <!-- Semi-transparent black for input highlight -->
 
         <!-- Default popup menu -->
-        <item name="popupMenuBackground">#000000</item> <!-- Solid black for popup menu -->
+        <item name="popupMenuBackground">#F2000000</item> <!-- semitransparent black for popup menu -->
 
         <!-- Header text color -->
         <item name="headerTextColor">#FFFFFF</item> <!-- White for header text -->
@@ -63,8 +63,8 @@
         <item name="controlIconForegroundInactive">#CCCCCC</item> <!-- Light grey for inactive icons -->
 
         <!-- QR drawables -->
-        <item name="qrBackground">#00000000</item> <!-- Fully transparent for QR background -->
-        <item name="qrForeground">#FFFFFF</item> <!-- White for QR foreground -->
+        <item name="qrBackground">@color/white</item>
+        <item name="qrForeground">@color/black</item>
 
         <!-- Tile colors -->
         <item name="tile_port_person_bg">#1A000000</item> <!-- Semi-transparent black for person tiles -->

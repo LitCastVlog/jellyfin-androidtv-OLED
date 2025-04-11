@@ -31,16 +31,15 @@
     <color name="red_gradient_end">#900d10</color>
 
     <!-- Live TV Colors -->
-    <color name="channel_scroller_bg">#000000</color> <!-- Solid black background for channel scroller -->
-    <color name="program_scroller_bg">#0A0A0A</color> <!-- Very dark grey for program scroller -->
-    <color name="timeline_bg">#000000</color> <!-- Solid black background for timeline -->
+    <color name="channel_scroller_bg">#100e0e</color>
+    <color name="program_scroller_bg">#050707</color>
+    <color name="timeline_bg">#100e0e</color>
 
     <!-- ProgramGridCell Background Colors -->
-    <color name="guide_movie_bg">#1A1A1A</color> <!-- Dark grey for movie guide -->
-    <color name="guide_sports_bg">#1A1A1A</color> <!-- Dark grey for sports guide -->
-    <color name="guide_news_bg">#1A1A1A</color> <!-- Dark grey for news guide -->
-    <color name="guide_kids_bg">#1A1A1A</color> <!-- Dark grey for kids guide -->
-
+    <color name="guide_movie_bg">#19461255</color>
+    <color name="guide_sports_bg">#191C24AB</color>
+    <color name="guide_news_bg">#1921A023</color>
+    <color name="guide_kids_bg">#1901A0E2</color>
 
     <!-- button_default -->
     <color name="button_default_normal_background">#B3747474</color>
