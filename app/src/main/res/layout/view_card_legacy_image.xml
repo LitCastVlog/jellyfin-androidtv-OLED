@@ -108,7 +108,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:contentDescription="@null"
-                android:src="@drawable/layer_background"
+                android:src="@drawable/squared_accent"
                 tools:ignore="ImageContrastCheck" />
 
             <TextView

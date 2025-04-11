@@ -5,7 +5,7 @@
         <!-- Colors -->
         <item name="android:colorPrimary">#1C1C1C</item> <!-- Dark grey for primary color -->
         <item name="android:colorPrimaryDark">#000000</item> <!-- True black for primary dark -->
-        <item name="android:colorAccent">#D90D0D0D</item> <!-- semitransparent for dark mode accent -->
+        <item name="android:colorAccent">#CC000000</item> <!-- semitransparent for dark mode accent -->
 
         <!-- Background resource or color -->
         <item name="android:windowBackground">#00000000</item> <!-- Fully transparent background -->
