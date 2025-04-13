@@ -31,9 +31,9 @@
     <color name="red_gradient_end">#900d10</color>
 
     <!-- Live TV Colors -->
-    <color name="channel_scroller_bg">#100e0e</color>
-    <color name="program_scroller_bg">#050707</color>
-    <color name="timeline_bg">#100e0e</color>
+    <color name="channel_scroller_bg">#201b1c</color>
+    <color name="program_scroller_bg">#0b0e14</color>
+    <color name="timeline_bg">#201b1c</color>
 
     <!-- ProgramGridCell Background Colors -->
     <color name="guide_movie_bg">#19461255</color>
