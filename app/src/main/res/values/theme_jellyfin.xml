@@ -4,15 +4,15 @@
     <style name="Theme.Jellyfin" parent="@style/Theme.AppCompat.Leanback">
         <item name="android:colorPrimary">@color/black</item>
         <item name="android:colorPrimaryDark">@color/black</item>
-        <item name="android:colorAccent">@color/black_transparent_dark</item>
+        <item name="android:colorAccent">@color/black_transparent</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="defaultBackground">@color/black</item>
         <item name="cardImageBackground">@color/transparent</item>
         <item name="cardViewBackground">@color/transparent</item>
         <item name="defaultSearchColor">@color/white</item>
-        <item name="android:colorButtonNormal">@color/grey_light</item>
-        <item name="buttonDefaultNormalBackground">@color/button_default_normal_background</item>
-        <item name="buttonDefaultHighlightBackground">@color/button_default_highlight_background</item>
+        <item name="android:colorButtonNormal">@color/white_transparent</item>
+        <item name="buttonDefaultNormalBackground">@color/button_dark_transparent</item>
+        <item name="buttonDefaultHighlightBackground">@color/white_transparent</item>
         <item name="inputDefaultStrokeWidth">2dp</item>
         <item name="inputDefaultStrokeColor">@color/input_default_stroke</item>
         <item name="inputDefaultHighlightBackground">@color/input_default_highlight_background</item>
@@ -20,7 +20,7 @@
         <item name="headerTextColor">@color/white</item>
         <item name="progressBackground">@color/grey_transparent</item>
         <item name="progressPrimary">@color/white</item>
-        <item name="progressSecondary">@color/grey_light</item>
+        <item name="progressSecondary">@color/not_quite_black</item>
         <item name="android:datePickerStyle">@style/DatePickerCustom</item>
         <item name="rowHeaderStyle">@style/Widget.Jellyfin.Row.Header</item>
         <item name="browseTitleViewLayout">@layout/view_lb_browse_title</item>
