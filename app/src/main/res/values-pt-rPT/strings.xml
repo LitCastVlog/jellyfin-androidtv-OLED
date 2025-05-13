@@ -408,7 +408,7 @@
     <string name="pref_show_backdrop_description">Alterar imagem de fundo para seleção de items</string>
     <string name="state_disabled">Desativado</string>
     <string name="lbl_quality_profile">Perfil de qualidade</string>
-    <string name="image_type_poster">Poster</string>
+    <string name="image_type_poster">Cartaz</string>
     <string name="image_size_smallest">Menor</string>
     <string name="desc_audio_night_mode">Nivelar volume automaticamente</string>
     <string name="pref_audio_night_mode">Modo áudio noturno (experimental)</string>
