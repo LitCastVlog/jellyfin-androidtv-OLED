@@ -1,4 +1,6 @@
 <h1 align="center">OLED fork of Jellyfin Android TV</h1>
+- based on my WebUI/mobile theme, <a href="https://github.com/LitCastVlog/Flow">Flow (Scyfin/Ultrachromic fork)</a>
+
 <img src="./Screenshots/screen1.jpg" width="100%"/>
 <img src="./Screenshots/screen0.jpg" width="100%"/>
 <img src="./Screenshots/Screen2.jpg" width="100%"/>
